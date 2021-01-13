@@ -2,7 +2,7 @@ for i in range(3, -1, -1):
     print(i)
 
 g = 7
-num = 10
+num = 1
 while True:
     if num < g:
         print('low')
