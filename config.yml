@@ -1,0 +1,400 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "gpuType": "T4",
+      "authorship_tag": "ABX9TyM2k0MB/Pq1U/trzjAGRPgY",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "accelerator": "GPU",
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "b501494928b64a42883bc4fa5e278bae": {
+          "model_module": "@jupyter-widgets/output",
+          "model_name": "OutputModel",
+          "model_module_version": "1.0.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/output",
+            "_model_module_version": "1.0.0",
+            "_model_name": "OutputModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/output",
+            "_view_module_version": "1.0.0",
+            "_view_name": "OutputView",
+            "layout": "IPY_MODEL_9c60d1aa696342e6bfb3071184f7fd29",
+            "msg_id": "",
+            "outputs": [
+              {
+                "output_type": "display_data",
+                "data": {
+                  "text/plain": "segmentation         \u001b[38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[35m100%\u001b[0m \u001b[33m0:00:00\u001b[0m\nspeaker_counting     \u001b[38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[35m100%\u001b[0m \u001b[33m0:00:00\u001b[0m\nembeddings           \u001b[38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[35m100%\u001b[0m \u001b[33m0:00:00\u001b[0m\ndiscrete_diarization \u001b[38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[35m100%\u001b[0m \u001b[33m0:00:00\u001b[0m\n",
+                  "text/html": "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">segmentation         <span style=\"color: #729c1f; text-decoration-color: #729c1f\">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span style=\"color: #800080; text-decoration-color: #800080\">100%</span> <span style=\"color: #808000; text-decoration-color: #808000\">0:00:00</span>\nspeaker_counting     <span style=\"color: #729c1f; text-decoration-color: #729c1f\">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span style=\"color: #800080; text-decoration-color: #800080\">100%</span> <span style=\"color: #808000; text-decoration-color: #808000\">0:00:00</span>\nembeddings           <span style=\"color: #729c1f; text-decoration-color: #729c1f\">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span style=\"color: #800080; text-decoration-color: #800080\">100%</span> <span style=\"color: #808000; text-decoration-color: #808000\">0:00:00</span>\ndiscrete_diarization <span style=\"color: #729c1f; text-decoration-color: #729c1f\">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span style=\"color: #800080; text-decoration-color: #800080\">100%</span> <span style=\"color: #808000; text-decoration-color: #808000\">0:00:00</span>\n</pre>\n"
+                },
+                "metadata": {}
+              }
+            ]
+          }
+        },
+        "9c60d1aa696342e6bfb3071184f7fd29": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/dnikolas/PyStuding/blob/master/config.yml\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "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"
+      ],
+      "metadata": {
+        "id": "BDD83Z-PzDkX"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install torch torchaudio pyannote.audio"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "9yBEPjoQ0V3y",
+        "outputId": "d4f20073-582b-4e88-8fe8-7a7cf9092536"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: torch in /usr/local/lib/python3.10/dist-packages (2.3.0+cu121)\n",
+            "Requirement already satisfied: torchaudio in /usr/local/lib/python3.10/dist-packages (2.3.0+cu121)\n",
+            "Requirement already satisfied: pyannote.audio in /usr/local/lib/python3.10/dist-packages (3.2.0)\n",
+            "Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from torch) (3.14.0)\n",
+            "Requirement already satisfied: typing-extensions>=4.8.0 in /usr/local/lib/python3.10/dist-packages (from torch) (4.11.0)\n",
+            "Requirement already satisfied: sympy in /usr/local/lib/python3.10/dist-packages (from torch) (1.12)\n",
+            "Requirement already satisfied: networkx in /usr/local/lib/python3.10/dist-packages (from torch) (3.3)\n",
+            "Requirement already satisfied: jinja2 in /usr/local/lib/python3.10/dist-packages (from torch) (3.1.4)\n",
+            "Requirement already satisfied: fsspec in /usr/local/lib/python3.10/dist-packages (from torch) (2023.6.0)\n",
+            "Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.1.105 in /usr/local/lib/python3.10/dist-packages (from torch) (12.1.105)\n",
+            "Requirement already satisfied: nvidia-cuda-runtime-cu12==12.1.105 in /usr/local/lib/python3.10/dist-packages (from torch) (12.1.105)\n",
+            "Requirement already satisfied: nvidia-cuda-cupti-cu12==12.1.105 in /usr/local/lib/python3.10/dist-packages (from torch) (12.1.105)\n",
+            "Requirement already satisfied: nvidia-cudnn-cu12==8.9.2.26 in /usr/local/lib/python3.10/dist-packages (from torch) (8.9.2.26)\n",
+            "Requirement already satisfied: nvidia-cublas-cu12==12.1.3.1 in /usr/local/lib/python3.10/dist-packages (from torch) (12.1.3.1)\n",
+            "Requirement already satisfied: nvidia-cufft-cu12==11.0.2.54 in /usr/local/lib/python3.10/dist-packages (from torch) (11.0.2.54)\n",
+            "Requirement already satisfied: nvidia-curand-cu12==10.3.2.106 in /usr/local/lib/python3.10/dist-packages (from torch) (10.3.2.106)\n",
+            "Requirement already satisfied: nvidia-cusolver-cu12==11.4.5.107 in /usr/local/lib/python3.10/dist-packages (from torch) (11.4.5.107)\n",
+            "Requirement already satisfied: nvidia-cusparse-cu12==12.1.0.106 in /usr/local/lib/python3.10/dist-packages (from torch) (12.1.0.106)\n",
+            "Requirement already satisfied: nvidia-nccl-cu12==2.20.5 in /usr/local/lib/python3.10/dist-packages (from torch) (2.20.5)\n",
+            "Requirement already satisfied: nvidia-nvtx-cu12==12.1.105 in /usr/local/lib/python3.10/dist-packages (from torch) (12.1.105)\n",
+            "Requirement already satisfied: triton==2.3.0 in /usr/local/lib/python3.10/dist-packages (from torch) (2.3.0)\n",
+            "Requirement already satisfied: nvidia-nvjitlink-cu12 in /usr/local/lib/python3.10/dist-packages (from nvidia-cusolver-cu12==11.4.5.107->torch) (12.5.40)\n",
+            "Requirement already satisfied: asteroid-filterbanks>=0.4 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (0.4.0)\n",
+            "Requirement already satisfied: einops>=0.6.0 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (0.8.0)\n",
+            "Requirement already satisfied: huggingface-hub>=0.13.0 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (0.23.1)\n",
+            "Requirement already satisfied: lightning>=2.0.1 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (2.2.5)\n",
+            "Requirement already satisfied: omegaconf<3.0,>=2.1 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (2.3.0)\n",
+            "Requirement already satisfied: pyannote.core>=5.0.0 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (5.0.0)\n",
+            "Requirement already satisfied: pyannote.database>=5.0.1 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (5.1.0)\n",
+            "Requirement already satisfied: pyannote.metrics>=3.2 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (3.2.1)\n",
+            "Requirement already satisfied: pyannote.pipeline>=3.0.1 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (3.0.1)\n",
+            "Requirement already satisfied: pytorch-metric-learning>=2.1.0 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (2.5.0)\n",
+            "Requirement already satisfied: rich>=12.0.0 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (13.7.1)\n",
+            "Requirement already satisfied: semver>=3.0.0 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (3.0.2)\n",
+            "Requirement already satisfied: soundfile>=0.12.1 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (0.12.1)\n",
+            "Requirement already satisfied: speechbrain>=0.5.14 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (1.0.0)\n",
+            "Requirement already satisfied: tensorboardX>=2.6 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (2.6.2.2)\n",
+            "Requirement already satisfied: torch-audiomentations>=0.11.0 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (0.11.1)\n",
+            "Requirement already satisfied: torchmetrics>=0.11.0 in /usr/local/lib/python3.10/dist-packages (from pyannote.audio) (1.4.0.post0)\n",
+            "Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (from asteroid-filterbanks>=0.4->pyannote.audio) (1.25.2)\n",
+            "Requirement already satisfied: packaging>=20.9 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.13.0->pyannote.audio) (24.0)\n",
+            "Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.13.0->pyannote.audio) (6.0.1)\n",
+            "Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.13.0->pyannote.audio) (2.31.0)\n",
+            "Requirement already satisfied: tqdm>=4.42.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.13.0->pyannote.audio) (4.66.4)\n",
+            "Requirement already satisfied: lightning-utilities<2.0,>=0.8.0 in /usr/local/lib/python3.10/dist-packages (from lightning>=2.0.1->pyannote.audio) (0.11.2)\n",
+            "Requirement already satisfied: pytorch-lightning in /usr/local/lib/python3.10/dist-packages (from lightning>=2.0.1->pyannote.audio) (2.2.5)\n",
+            "Requirement already satisfied: antlr4-python3-runtime==4.9.* in /usr/local/lib/python3.10/dist-packages (from omegaconf<3.0,>=2.1->pyannote.audio) (4.9.3)\n",
+            "Requirement already satisfied: sortedcontainers>=2.0.4 in /usr/local/lib/python3.10/dist-packages (from pyannote.core>=5.0.0->pyannote.audio) (2.4.0)\n",
+            "Requirement already satisfied: scipy>=1.1 in /usr/local/lib/python3.10/dist-packages (from pyannote.core>=5.0.0->pyannote.audio) (1.11.4)\n",
+            "Requirement already satisfied: pandas>=0.19 in /usr/local/lib/python3.10/dist-packages (from pyannote.database>=5.0.1->pyannote.audio) (2.0.3)\n",
+            "Requirement already satisfied: typer>=0.12.1 in /usr/local/lib/python3.10/dist-packages (from pyannote.database>=5.0.1->pyannote.audio) (0.12.3)\n",
+            "Requirement already satisfied: scikit-learn>=0.17.1 in /usr/local/lib/python3.10/dist-packages (from pyannote.metrics>=3.2->pyannote.audio) (1.2.2)\n",
+            "Requirement already satisfied: docopt>=0.6.2 in /usr/local/lib/python3.10/dist-packages (from pyannote.metrics>=3.2->pyannote.audio) (0.6.2)\n",
+            "Requirement already satisfied: tabulate>=0.7.7 in /usr/local/lib/python3.10/dist-packages (from pyannote.metrics>=3.2->pyannote.audio) (0.9.0)\n",
+            "Requirement already satisfied: matplotlib>=2.0.0 in /usr/local/lib/python3.10/dist-packages (from pyannote.metrics>=3.2->pyannote.audio) (3.7.1)\n",
+            "Requirement already satisfied: optuna>=3.1 in /usr/local/lib/python3.10/dist-packages (from pyannote.pipeline>=3.0.1->pyannote.audio) (3.6.1)\n",
+            "Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.10/dist-packages (from rich>=12.0.0->pyannote.audio) (3.0.0)\n",
+            "Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.10/dist-packages (from rich>=12.0.0->pyannote.audio) (2.16.1)\n",
+            "Requirement already satisfied: cffi>=1.0 in /usr/local/lib/python3.10/dist-packages (from soundfile>=0.12.1->pyannote.audio) (1.16.0)\n",
+            "Requirement already satisfied: hyperpyyaml in /usr/local/lib/python3.10/dist-packages (from speechbrain>=0.5.14->pyannote.audio) (1.2.2)\n",
+            "Requirement already satisfied: joblib in /usr/local/lib/python3.10/dist-packages (from speechbrain>=0.5.14->pyannote.audio) (1.4.2)\n",
+            "Requirement already satisfied: sentencepiece in /usr/local/lib/python3.10/dist-packages (from speechbrain>=0.5.14->pyannote.audio) (0.1.99)\n",
+            "Requirement already satisfied: mpmath>=0.19 in /usr/local/lib/python3.10/dist-packages (from sympy->torch) (1.3.0)\n",
+            "Requirement already satisfied: protobuf>=3.20 in /usr/local/lib/python3.10/dist-packages (from tensorboardX>=2.6->pyannote.audio) (3.20.3)\n",
+            "Requirement already satisfied: julius<0.3,>=0.2.3 in /usr/local/lib/python3.10/dist-packages (from torch-audiomentations>=0.11.0->pyannote.audio) (0.2.7)\n",
+            "Requirement already satisfied: librosa>=0.6.0 in /usr/local/lib/python3.10/dist-packages (from torch-audiomentations>=0.11.0->pyannote.audio) (0.10.2.post1)\n",
+            "Requirement already satisfied: torch-pitch-shift>=1.2.2 in /usr/local/lib/python3.10/dist-packages (from torch-audiomentations>=0.11.0->pyannote.audio) (1.2.4)\n",
+            "Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/dist-packages (from jinja2->torch) (2.1.5)\n",
+            "Requirement already satisfied: pycparser in /usr/local/lib/python3.10/dist-packages (from cffi>=1.0->soundfile>=0.12.1->pyannote.audio) (2.22)\n",
+            "Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in /usr/local/lib/python3.10/dist-packages (from fsspec->torch) (3.9.5)\n",
+            "Requirement already satisfied: audioread>=2.1.9 in /usr/local/lib/python3.10/dist-packages (from librosa>=0.6.0->torch-audiomentations>=0.11.0->pyannote.audio) (3.0.1)\n",
+            "Requirement already satisfied: decorator>=4.3.0 in /usr/local/lib/python3.10/dist-packages (from librosa>=0.6.0->torch-audiomentations>=0.11.0->pyannote.audio) (4.4.2)\n",
+            "Requirement already satisfied: numba>=0.51.0 in /usr/local/lib/python3.10/dist-packages (from librosa>=0.6.0->torch-audiomentations>=0.11.0->pyannote.audio) (0.58.1)\n",
+            "Requirement already satisfied: pooch>=1.1 in /usr/local/lib/python3.10/dist-packages (from librosa>=0.6.0->torch-audiomentations>=0.11.0->pyannote.audio) (1.8.1)\n",
+            "Requirement already satisfied: soxr>=0.3.2 in /usr/local/lib/python3.10/dist-packages (from librosa>=0.6.0->torch-audiomentations>=0.11.0->pyannote.audio) (0.3.7)\n",
+            "Requirement already satisfied: lazy-loader>=0.1 in /usr/local/lib/python3.10/dist-packages (from librosa>=0.6.0->torch-audiomentations>=0.11.0->pyannote.audio) (0.4)\n",
+            "Requirement already satisfied: msgpack>=1.0 in /usr/local/lib/python3.10/dist-packages (from librosa>=0.6.0->torch-audiomentations>=0.11.0->pyannote.audio) (1.0.8)\n",
+            "Requirement already satisfied: setuptools in /usr/local/lib/python3.10/dist-packages (from lightning-utilities<2.0,>=0.8.0->lightning>=2.0.1->pyannote.audio) (67.7.2)\n",
+            "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.10/dist-packages (from markdown-it-py>=2.2.0->rich>=12.0.0->pyannote.audio) (0.1.2)\n",
+            "Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=2.0.0->pyannote.metrics>=3.2->pyannote.audio) (1.2.1)\n",
+            "Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=2.0.0->pyannote.metrics>=3.2->pyannote.audio) (0.12.1)\n",
+            "Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=2.0.0->pyannote.metrics>=3.2->pyannote.audio) (4.51.0)\n",
+            "Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=2.0.0->pyannote.metrics>=3.2->pyannote.audio) (1.4.5)\n",
+            "Requirement already satisfied: pillow>=6.2.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=2.0.0->pyannote.metrics>=3.2->pyannote.audio) (9.4.0)\n",
+            "Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=2.0.0->pyannote.metrics>=3.2->pyannote.audio) (3.1.2)\n",
+            "Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.10/dist-packages (from matplotlib>=2.0.0->pyannote.metrics>=3.2->pyannote.audio) (2.8.2)\n",
+            "Requirement already satisfied: alembic>=1.5.0 in /usr/local/lib/python3.10/dist-packages (from optuna>=3.1->pyannote.pipeline>=3.0.1->pyannote.audio) (1.13.1)\n",
+            "Requirement already satisfied: colorlog in /usr/local/lib/python3.10/dist-packages (from optuna>=3.1->pyannote.pipeline>=3.0.1->pyannote.audio) (6.8.2)\n",
+            "Requirement already satisfied: sqlalchemy>=1.3.0 in /usr/local/lib/python3.10/dist-packages (from optuna>=3.1->pyannote.pipeline>=3.0.1->pyannote.audio) (2.0.30)\n",
+            "Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas>=0.19->pyannote.database>=5.0.1->pyannote.audio) (2023.4)\n",
+            "Requirement already satisfied: tzdata>=2022.1 in /usr/local/lib/python3.10/dist-packages (from pandas>=0.19->pyannote.database>=5.0.1->pyannote.audio) (2024.1)\n",
+            "Requirement already satisfied: threadpoolctl>=2.0.0 in /usr/local/lib/python3.10/dist-packages (from scikit-learn>=0.17.1->pyannote.metrics>=3.2->pyannote.audio) (3.5.0)\n",
+            "Requirement already satisfied: primePy>=1.3 in /usr/local/lib/python3.10/dist-packages (from torch-pitch-shift>=1.2.2->torch-audiomentations>=0.11.0->pyannote.audio) (1.3)\n",
+            "Requirement already satisfied: click>=8.0.0 in /usr/local/lib/python3.10/dist-packages (from typer>=0.12.1->pyannote.database>=5.0.1->pyannote.audio) (8.1.7)\n",
+            "Requirement already satisfied: shellingham>=1.3.0 in /usr/local/lib/python3.10/dist-packages (from typer>=0.12.1->pyannote.database>=5.0.1->pyannote.audio) (1.5.4)\n",
+            "Requirement already satisfied: ruamel.yaml>=0.17.28 in /usr/local/lib/python3.10/dist-packages (from hyperpyyaml->speechbrain>=0.5.14->pyannote.audio) (0.18.6)\n",
+            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.13.0->pyannote.audio) (3.3.2)\n",
+            "Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.13.0->pyannote.audio) (3.7)\n",
+            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.13.0->pyannote.audio) (2.0.7)\n",
+            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.13.0->pyannote.audio) (2024.2.2)\n",
+            "Requirement already satisfied: aiosignal>=1.1.2 in /usr/local/lib/python3.10/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec->torch) (1.3.1)\n",
+            "Requirement already satisfied: attrs>=17.3.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec->torch) (23.2.0)\n",
+            "Requirement already satisfied: frozenlist>=1.1.1 in /usr/local/lib/python3.10/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec->torch) (1.4.1)\n",
+            "Requirement already satisfied: multidict<7.0,>=4.5 in /usr/local/lib/python3.10/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec->torch) (6.0.5)\n",
+            "Requirement already satisfied: yarl<2.0,>=1.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec->torch) (1.9.4)\n",
+            "Requirement already satisfied: async-timeout<5.0,>=4.0 in /usr/local/lib/python3.10/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec->torch) (4.0.3)\n",
+            "Requirement already satisfied: Mako in /usr/local/lib/python3.10/dist-packages (from alembic>=1.5.0->optuna>=3.1->pyannote.pipeline>=3.0.1->pyannote.audio) (1.3.5)\n",
+            "Requirement already satisfied: llvmlite<0.42,>=0.41.0dev0 in /usr/local/lib/python3.10/dist-packages (from numba>=0.51.0->librosa>=0.6.0->torch-audiomentations>=0.11.0->pyannote.audio) (0.41.1)\n",
+            "Requirement already satisfied: platformdirs>=2.5.0 in /usr/local/lib/python3.10/dist-packages (from pooch>=1.1->librosa>=0.6.0->torch-audiomentations>=0.11.0->pyannote.audio) (4.2.2)\n",
+            "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil>=2.7->matplotlib>=2.0.0->pyannote.metrics>=3.2->pyannote.audio) (1.16.0)\n",
+            "Requirement already satisfied: ruamel.yaml.clib>=0.2.7 in /usr/local/lib/python3.10/dist-packages (from ruamel.yaml>=0.17.28->hyperpyyaml->speechbrain>=0.5.14->pyannote.audio) (0.2.8)\n",
+            "Requirement already satisfied: greenlet!=0.4.17 in /usr/local/lib/python3.10/dist-packages (from sqlalchemy>=1.3.0->optuna>=3.1->pyannote.pipeline>=3.0.1->pyannote.audio) (3.0.3)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import json\n",
+        "import os\n",
+        "import time\n",
+        "from pyannote.audio import Pipeline\n",
+        "from tqdm import tqdm\n",
+        "from pyannote.audio.pipelines.utils.hook import ProgressHook\n",
+        "import torch\n",
+        "import torchaudio\n",
+        "\n",
+        "device = torch.device(\"cuda:0\")\n",
+        "wav_file = \"/content/vozglas-yes.mp3\"\n",
+        "start_time = time.time()\n",
+        "\n",
+        "user_name = os.getenv('USER') or os.getenv('USERNAME')\n",
+        "pipeline = Pipeline.from_pretrained(f\"/content/config.yml\")\n",
+        "pipeline.to(device)\n",
+        "waveform, sample_rate = torchaudio.load(wav_file)\n",
+        "waveform = waveform.to(device)\n",
+        "\n",
+        "with ProgressHook() as hook:\n",
+        "    diarization = pipeline({\"waveform\": waveform, \"sample_rate\": sample_rate}, hook=hook)\n",
+        "\n",
+        "segments = []\n",
+        "for segment, _, speaker in tqdm(diarization.itertracks(yield_label=True), desc=\"Processing segments\", total=len(diarization)):\n",
+        "    segments.append({\n",
+        "        \"speaker\": speaker,\n",
+        "        \"start\": segment.start,\n",
+        "        \"end\": segment.end\n",
+        "    })\n",
+        "\n",
+        "with open('segments.json', 'w') as outfile:\n",
+        "    json.dump(segments, outfile)\n",
+        "\n",
+        "end_time = time.time()\n",
+        "print(f\"Script executed in {end_time - start_time:.2f} seconds\")\n",
+        "\n",
+        "for speech_turn, track, speaker in tqdm(diarization.itertracks(yield_label=True), desc=\"Processing segments\", total=len(diarization)):\n",
+        "    print(f\"{speech_turn.start:4.1f} {speech_turn.end:4.1f} {speaker}\")\n",
+        "\n",
+        "from pyannote.core import notebook, Segment\n",
+        "notebook.crop = Segment(0, 30)\n",
+        "diarization"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 469,
+          "referenced_widgets": [
+            "b501494928b64a42883bc4fa5e278bae",
+            "9c60d1aa696342e6bfb3071184f7fd29"
+          ]
+        },
+        "id": "qlleW60b1iMW",
+        "outputId": "1b7841a7-c029-47d9-f392-a2d4ba216ab0"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Output()"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "b501494928b64a42883bc4fa5e278bae"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\"></pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "\n"
+            ],
+            "text/html": [
+              "<pre style=\"white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace\">\n",
+              "</pre>\n"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "Processing segments: 100%|██████████| 4/4 [00:00<00:00, 31184.42it/s]\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Script executed in 0.49 seconds\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "Processing segments: 100%|██████████| 4/4 [00:00<00:00, 20189.19it/s]\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " 0.0  0.9 SPEAKER_00\n",
+            " 2.9  4.0 SPEAKER_00\n",
+            " 5.4  5.7 SPEAKER_00\n",
+            " 5.7  7.1 SPEAKER_01\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "<pyannote.core.annotation.Annotation at 0x7efefdc39f90>"
+            ],
+            "image/png": "iVBORw0KGgoAAAANSUhEUgAABi8AAADyCAYAAAA1MlYeAAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjcuMSwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy/bCgiHAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAdjklEQVR4nO3de5BW9X0/8PeyXLTuhQCyC3IRbyAG1NAEN1FjiIDIOKLEVFOtqDETBumISaQ6RDRWTclYEwfNrSg2BrU20TSm1iQUCImo1ZQSTUIjpYP+gEXXsiDJgln294fDxg0EWXhgz8LrNfPM7J7L93yeZ7/zne+e93nOKWtpaWkJAAAAAABAQXTp6AIAAAAAAADeSXgBAAAAAAAUivACAAAAAAAoFOEFAAAAAABQKMILAAAAAACgUIQXAAAAAABAoQgvAAAAAACAQhFeAAAAAAAAhSK8AAAAAAAACkV4AQAAAAAAFIrwAgAAAAAAKBThBQAAAAAAUCjCCwAAAAAAoFCEFwAAAAAAQKEILwAAAAAAgEIRXgAAAAAAAIVySIYXr732WqZOnZpBgwalR48eqa2tzfjx4/Ozn/0sSXL00UenrKwsZWVlOeKII/K+970vjz76aOv+N998c+v6d76GDRu207EeeuihlJeXZ9q0aTutW7x4ccrKyrJx48bWZWvXrs2IESNy5plnprGxsXWbXb3Wr1+/Uz3l5eUZOHBgPvWpT+WNN97Y48+kqakp06ZNS+/evVNRUZHJkyenvr6+zTZr1qzJxIkT82d/9mfp27dvPve5z+X3v//9Hh/jUKOf7WxP+tlf//VfZ9SoUenRo0dOOeWUPW4bAAAAADh4dC11g80NDaVucrfKe/du9z6TJ0/Otm3b8sADD+SYY45JfX19Fi5cmIZ31P6FL3whV199dTZt2pQ777wzf/EXf5GjjjoqH/zgB5MkJ510Un784x+3abdr150/znnz5uX666/P17/+9dx555057LDD/mRdq1atytixYzN8+PA8+uijOfzww1vXrVy5MlVVVW2279u3b+vPO+ppbm7Or371q1x55ZVpbGzMI488skefyYwZM/KDH/wgjz76aKqrq3PNNdfkwgsvbD3R3tzcnIkTJ6a2tjZPP/101q1bl7/6q79Kt27dcvvtt+/RMUrp/7ZsO6DHe88R3du9j362s3frZztceeWVefbZZ7NixYo9ahcAAAAAOLiUPLxYP/KUUje5W0f9v1fatf3GjRuzdOnSLF68OB/+8IeTJIMHD84HPvCBNttVVlamtrY2tbW1ueeee/Lggw/m+9//futJ5a5du6a2tna3x1q9enWefvrpfOc738miRYvy3e9+N5/4xCd2ue2KFSsyfvz4jBkzJg888MBOJ6j79u2bnj17/sljvbOeo446KhdddFHuv//+3da3Q2NjY+bNm5cFCxZkzJgxSZL7778/J554Yp555pmcdtpp+eEPf5hf/vKX+fGPf5yampqccsopufXWWzNz5szcfPPN6d69/Sf398WEOYsO6PGeuWV8u7bXz3a2J/0sSe6+++4kb39zRXgBAAAAAIemQ+62URUVFamoqMjjjz+erVu37tE+Xbt2Tbdu3bJtW/uu9r///vszceLEVFdX59JLL828efN2ud3TTz+dD3/4w5k8eXIefPDBXV5Z3x7/+7//m6eeemqPA4UXXnghb731Vs4+++zWZcOGDcugQYOybNmyJMmyZcsyYsSI1NTUtG4zfvz4bNq0KS+99NI+1Xsw0s92tif9DAAAAAAgOQTDi65du2b+/Pl54IEH0rNnz3zoQx/KjTfe+Cev8N62bVvuuOOONDY2tl4tniS/+MUvWk9Q73h9+tOfbl2/ffv2zJ8/P5deemmS5OKLL85Pf/rTrF69eqdjXHDBBTnvvPMyd+7clJWV7bKOAQMGtDnWSSed1Gb9jnoOP/zwDBkyJC+99FJmzpy5R5/J+vXr0717952uuK+pqWl93sH69evbBBc71u9YR1v62c72pJ8BAAAAACT74bZRncHkyZMzceLELF26NM8880yefPLJzJkzJ//wD/+QKVOmJElmzpyZWbNmpampKRUVFfniF7+YiRMntrYxdOjQ/Mu//Eubdt/5rIAf/ehH2bJlS84999wkSZ8+fTJ27Njcd999ufXWW9vsd/755+exxx7L0qVLc8YZZ+yy5qVLl6aysrL1927durVZv6OepqamPPjgg1m+fHmmT5/e/g+HktHPAAAAAAD2TsnDi9oVy0vd5H5x2GGHZezYsRk7dmw+//nP55Of/GRmz57delL5c5/7XKZMmZKKiorU1NTsdKV69+7dc9xxx/3J9ufNm5c33nijzcOQt2/fnhUrVuSWW25Jly5/+NLL17/+9Vx//fWZMGFC/vVf/zVnnnnmTu0NGTJkt88ieGc9O06A33LLLTudwN6V2trabNu2LRs3bmxzjPr6+tbnG9TW1ua5555rs199fX3rugPtyes/csCPuTf0sz/Yk34GAAAAAJDsh/CivHfvUjd5QAwfPjyPP/546+99+vTZ7Unj3WloaMj3vve9PPzww21uu9Pc3JzTTz89P/zhD3POOee0Li8rK8s3vvGNdOnSJeeee25+8IMftD7keW/NmjUrY8aMydSpU9O/f//dbjtq1Kh069YtCxcuzOTJk5MkK1euzJo1a1JXV5ckqaury2233ZYNGzakb9++Sd6+6r+qqirDhw/fp1r3xnuOOLAPCC8V/Wz3/QwAAAAAIDkEbxvV0NCQiy66KFdeeWVGjhyZysrKPP/885kzZ07OP//8PW7n97///U736S8rK0tNTU2+9a1vpXfv3vn4xz++05X05557bubNm9fmpPKOfb/2ta+lvLy89cTyWWed1bp+w4YNaWpqarNP7969d7qtzw51dXUZOXJkbr/99sydO3e376W6ujpXXXVVrrvuuvTq1StVVVWZPn166urqctpppyVJxo0bl+HDh+eyyy7LnDlzsn79+syaNSvTpk1Ljx49dtv+oUg/29me9LMkefnll/Pmm29m/fr1+d3vfpfly5cneTv42dOHgwMAAAAAndshF15UVFRk9OjRueuuu7Jq1aq89dZbGThwYK6++urceOONe9zOSy+9lH79+rVZ1qNHjzQ1NeW+++7LBRdcsMuHIk+ePDmXXXZZXn/99Z3WlZWV5Z577kmXLl0yceLEPPHEE61tDB06dKftly1b1uak7x+bMWNGpkyZkpkzZ2bgwIG7fT933XVXunTpksmTJ2fr1q0ZP3587r333tb15eXleeKJJzJ16tTU1dXliCOOyOWXX54vfOELu233UKWf7dq79bMk+eQnP5klS5a0/n7qqacmSVavXp2jjz56t+0DAAAAAAeHspaWlpaOLgIAAAAAAGCHLu++CQAAAAAAwIEjvDgEfPvb305FRcUuX+980DPsC/0MAAAAACgVt406BGzevDn19fW7XNetW7cMHjz4AFfEwUg/AwAAAABKRXgBAAAAAAAUittGAQAAAAAAhSK8AAAAAAAACqXr3uy0ffv2rF27NpWVlSkrKyt1TQAAAAAAQCfS0tKSzZs3p3///unSZd+/N7FX4cXatWszcODAfT44AAAAAABw8HjllVcyYMCAfW5nr8KLysrK1iKqqqr2uQgAAAAAAKDz2rRpUwYOHNiaH+yrvQovdtwqqqqqSngBAAAAAAAkSckeNeGB3QAAAAAAQKEILwAAAAAAgEIRXgAAAAAAAIUivAAAAAAAAApFeAEAAAAAABSK8AIAAAAAACgU4QUAAAAAAFAowgsAAAAAAKBQhBcAAAAAAEChCC8AAAAAAIBCEV4AAAAAAACFIrwAAAAAAAAKRXgBAAAAAAAUivACAAAAAAAoFOEFAAAAAABQKMILAAAAAACgUIQXAAAAAABAoQgvAAAAAACAQhFeAAAAAAAAhSK8AAAAAAAACkV4AQAAAAAAFIrwAgAAAAAAKBThBQAAAAAAUCjCCwAAAAAAoFCEFwAAAAAAQKEILwAAAAAAgEIRXgAAAAAAAIUivAAAAAAAAApFeAEAAAAAABSK8AIAAAAAACgU4QUAAAAAAFAowgsAAAAAAKBQhBcAAAAAAEChCC8AAAAAAIBCEV4AAAAAAACFIrwAAAAAAAAKRXgBAAAAAAAUivACAAAAAAAoFOEFAAAAAABQKMILAAAAAACgUIQXAAAAAABAoQgvAAAAAACAQhFeAAAAAAAAhSK8AAAAAAAACkV4AQAAAAAAFIrwAgAAAAAAKBThBQAAAAAAUCjCCwAAAAAAoFCEFwAAAAAAQKEILwAAAAAAgEIRXgAAAAAAAIUivAAAAAAAAApFeAEAAAAAABSK8AIAAAAAACgU4QUAAAAAAFAowgsAAAAAAKBQhBcAAAAAAEChCC8AAAAAAIBCEV4AAAAAAACFIrwAAAAAAAAKRXgBAAAAAAAUivACAAAAAAAoFOEFAAAAAABQKMILAAAAAACgUIQXAAAAAABAoQgvAAAAAACAQtmn8KJ5w4ZsuvPv01xfX6p6Dojm+vpOWffB6lD5exwq73NflOIzqv+fVzP3tm+l/n9eLWFlndvrm7fmm4tezuubt3Z0KQAAAACwR/YtvHjttWz++7vSvGFDqeo5IJo3bOiUdR+sDpW/x6HyPvdFKT6jDa/W58FtfbPhVSHRDq9v3pp5i1cJLwAAAADoNNw2CgAAAAAAKBThBQAAAAAAUCjCCwAAAAAAoFC6lqKR7Rsb09zQUIqmDojtGxs7ugR2obP1o/bS7/bcvvSFls1vJkne3LY9/7dlWynL6rQ2/+6tji4BAAAAANqlJOFFw8WXlKIZDnH6ETvsS19o7D0oueCmzFj6RrJ0UQmrAgAAAAAOFLeNAgAAAAAACkV4AQAAAAAAFIrwAgAAAAAAKJSSPPOi98MPpdvwE0vR1AHx1i9/5fkKBdTZ+lF76Xd7bl/6QsMzLybPNeWuM3plWN3JJa6sc3p5/eZM/8fnO7oMAAAAANhjJQkvuvSsTnnv3qVo6oBo7lnd0SWwC52tH7WXfrfn9qUvlFVWJGlKRfcuec8R3UtbWCdVeXi3ji4BAAAAANrFbaMAAAAAAIBCEV4AAAAAAACFIrwAAAAAAAAKZZ/Ci/Ijj0zldTNS3rdvqeo5IMr79u2UdR+sDpW/x6HyPvdFKT6jvgNqcmn3Dek7oKaElXVufSp75Kqzjk2fyh4dXQoAAAAA7JGylpaWlvbutGnTplRXV6exsTFVVVX7oy4AAAAAAKCTKHVu4LZRAAAAAABAoQgvAAAAAACAQhFeAAAAAAAAhSK8AAAAAAAACkV4AQAAAAAAFIrwAgAAAAAAKBThBQAAAAAAUCjCCwAAAAAAoFCEFwAAAAAAQKEILwAAAAAAgEIRXgAAAAAAAIUivAAAAAAAAApFeAEAAAAAABSK8AIAAAAAACgU4QUAAAAAAFAowgsAAAAAAKBQhBcAAAAAAEChCC8AAAAAAIBCEV4AAAAAAACFIrwAAAAAAAAKRXgBAAAAAAAUivACAAAAAAAoFOEFAAAAAABQKMILAAAAAACgUIQXAAAAAABAoQgvAAAAAACAQhFeAAAAAAAAhSK8AAAAAAAACkV4AQAAAAAAFIrwAgAAAAAAKBThBQAAAAAAUCjCCwAAAAAAoFCEFwAAAAAAQKEILwAAAAAAgEIRXgAAAAAAAIUivAAAAAAAAApFeAEAAAAAABSK8AIAAAAAACgU4QUAAAAAAFAowgsAAAAAAKBQhBcAAAAAAEChCC8AAAAAAIBCEV4AAAAAAACFIrwAAAAAAAAKRXgBAAAAAAAUivACAAAAAAAoFOEFAAAAAABQKMILAAAAAACgUIQXAAAAAABAoQgvAAAAAACAQhFeAAAAAAAAhSK8AAAAAAAACkV4AQAAAAAAFIrwAgAAAAAAKBThBQAAAAAAUCjCCwAAAAAAoFCEFwAAAAAAQKEILwAAAAAAgEIRXgAAAAAAAIUivAAAAAAAAApFeAEAAAAAABSK8AIAAAAAACgU4QUAAAAAAFAowgsAAAAAAKBQhBcAAAAAAEChCC8AAAAAAIBCEV4AAAAAAACF0nVvdmppaUmSbNq0qaTFAAAAAAAAnc+OvGBHfrCv9iq8aGhoSJIMHDiwJEUAAAAAAACdX0NDQ6qrq/e5nb0KL3r16pUkWbNmTUmKADqnTZs2ZeDAgXnllVdSVVXV0eUAHcA4ABgHgMRYABgHgKSxsTGDBg1qzQ/21V6FF126vP2ojOrqaoMRkKqqKmMBHOKMA4BxAEiMBYBxAPhDfrDP7ZSkFQAAAAAAgBIRXgAAAAAAAIWyV+FFjx49Mnv27PTo0aPU9QCdiLEAMA4AxgEgMRYAxgGg9ONAWUtLS0tJWgIAAAAAACgBt40CAAAAAAAKRXgBAAAAAAAUivACAAAAAAAoFOEFAAAAAABQKHsVXtxzzz05+uijc9hhh2X06NF57rnnSl0XUFA333xzysrK2ryGDRvW0WUB+9lPfvKTnHfeeenfv3/Kysry+OOPt1nf0tKSm266Kf369cvhhx+es88+O7/5zW86plhgv3i3cWDKlCk7zRHOOeecjikW2C/uuOOOvP/9709lZWX69u2bSZMmZeXKlW22aWpqyrRp09K7d+9UVFRk8uTJqa+v76CKgVLbk3HgrLPO2mlO8OlPf7qDKgb2h69+9asZOXJkqqqqUlVVlbq6ujz55JOt60s1H2h3ePHII4/kuuuuy+zZs/Pzn/88J598csaPH58NGza0++BA53TSSSdl3bp1ra+f/vSnHV0SsJ9t2bIlJ598cu65555drp8zZ07uvvvufO1rX8uzzz6bI444IuPHj09TU9MBrhTYX95tHEiSc845p80c4aGHHjqAFQL725IlSzJt2rQ888wz+dGPfpS33nor48aNy5YtW1q3mTFjRr7//e/n0UcfzZIlS7J27dpceOGFHVg1UEp7Mg4kydVXX91mTjBnzpwOqhjYHwYMGJAvfvGLeeGFF/L8889nzJgxOf/88/PSSy8lKd18oKylpaWlPTuMHj0673//+zN37twkyfbt2zNw4MBMnz49f/M3f9PuAoDO5eabb87jjz+e5cuXd3QpQAcpKyvLY489lkmTJiV5+1sX/fv3z2c+85l89rOfTZI0NjampqYm8+fPz8UXX9yB1QL7wx+PA8nb37zYuHHjTt/IAA5er732Wvr27ZslS5bkzDPPTGNjY4488sgsWLAgH/vYx5Ikv/71r3PiiSdm2bJlOe200zq4YqDU/ngcSN7+5sUpp5ySL3/5yx1bHHBA9erVK1/60pfysY99rGTzgXZ982Lbtm154YUXcvbZZ/+hgS5dcvbZZ2fZsmXtaQroxH7zm9+kf//+OeaYY/KXf/mXWbNmTUeXBHSg1atXZ/369W3mB9XV1Rk9erT5ARxiFi9enL59+2bo0KGZOnVqGhoaOrokYD9qbGxM8vbJiiR54YUX8tZbb7WZEwwbNiyDBg0yJ4CD1B+PAzt8+9vfTp8+ffLe9743N9xwQ3772992RHnAAdDc3JyHH344W7ZsSV1dXUnnA13bs/Hrr7+e5ubm1NTUtFleU1OTX//61+06MNA5jR49OvPnz8/QoUOzbt263HLLLTnjjDPy4osvprKysqPLAzrA+vXrk2SX84Md64CD3znnnJMLL7wwQ4YMyapVq3LjjTdmwoQJWbZsWcrLyzu6PKDEtm/fnmuvvTYf+tCH8t73vjfJ23OC7t27p2fPnm22NSeAg9OuxoEk+cQnPpHBgwenf//+WbFiRWbOnJmVK1fmu9/9bgdWC5TaL37xi9TV1aWpqSkVFRV57LHHMnz48Cxfvrxk84F2hRcAEyZMaP155MiRGT16dAYPHpx/+qd/ylVXXdWBlQEAHemdt4gbMWJERo4cmWOPPTaLFy/ORz/60Q6sDNgfpk2blhdffNHz7+AQ9qfGgU996lOtP48YMSL9+vXLRz/60axatSrHHnvsgS4T2E+GDh2a5cuXp7GxMf/8z/+cyy+/PEuWLCnpMdp126g+ffqkvLx8pyeD19fXp7a2tqSFAZ1Dz549c8IJJ+Tll1/u6FKADrJjDmB+ALzTMccckz59+pgjwEHommuuyRNPPJFFixZlwIABrctra2uzbdu2bNy4sc325gRw8PlT48CujB49OknMCeAg07179xx33HEZNWpU7rjjjpx88sn5yle+UtL5QLvCi+7du2fUqFFZuHBh67Lt27dn4cKFqaura9eBgYPDm2++mVWrVqVfv34dXQrQQYYMGZLa2to284NNmzbl2WefNT+AQ9irr76ahoYGcwQ4iLS0tOSaa67JY489ln//93/PkCFD2qwfNWpUunXr1mZOsHLlyqxZs8acAA4S7zYO7Mry5cuTxJwADnLbt2/P1q1bSzofaPdto6677rpcfvnl+fM///N84AMfyJe//OVs2bIlV1xxRXubAjqhz372sznvvPMyePDgrF27NrNnz055eXkuueSSji4N2I/efPPNNldKrV69OsuXL0+vXr0yaNCgXHvttfnbv/3bHH/88RkyZEg+//nPp3///pk0aVLHFQ2U1O7GgV69euWWW27J5MmTU1tbm1WrVuX666/Pcccdl/Hjx3dg1UApTZs2LQsWLMj3vve9VFZWtt63urq6Oocffniqq6tz1VVX5brrrkuvXr1SVVWV6dOnp66uLqeddloHVw+UwruNA6tWrcqCBQty7rnnpnfv3lmxYkVmzJiRM888MyNHjuzg6oFSueGGGzJhwoQMGjQomzdvzoIFC7J48eI89dRTJZ0PlLW0tLS0t7i5c+fmS1/6UtavX59TTjkld999d+tXwICD28UXX5yf/OQnaWhoyJFHHpnTTz89t912m/tWwkFu8eLF+chHPrLT8ssvvzzz589PS0tLZs+enW984xvZuHFjTj/99Nx777054YQTOqBaYH/Y3Tjw1a9+NZMmTcp//ud/ZuPGjenfv3/GjRuXW2+9NTU1NR1QLbA/lJWV7XL5/fffnylTpiRJmpqa8pnPfCYPPfRQtm7dmvHjx+fee+912yg4SLzbOPDKK6/k0ksvzYsvvpgtW7Zk4MCBueCCCzJr1qxUVVUd4GqB/eWqq67KwoULs27dulRXV2fkyJGZOXNmxo4dm6R084G9Ci8AAAAAAAD2l3Y98wIAAAAAAGB/E14AAAAAAACFIrwAAAAAAAAKRXgBAAAAAAAUivACAAAAAAAoFOEFAAAAAABQKMILAAAAAACgUIQXAAAAAABAoQgvAACA3ZoyZUomTZrU0WUAAACHkK4dXQAAANBxysrKdrt+9uzZ+cpXvpKWlpYDVBEAAIDwAgAADmnr1q1r/fmRRx7JTTfdlJUrV7Yuq6ioSEVFRUeUBgAAHMLcNgoAAA5htbW1ra/q6uqUlZW1WVZRUbHTbaPOOuusTJ8+Pddee23e8573pKamJt/85jezZcuWXHHFFamsrMxxxx2XJ598ss2xXnzxxUyYMCEVFRWpqanJZZddltdff/0Av2MAAKAzEF4AAADt9sADD6RPnz557rnnMn369EydOjUXXXRRPvjBD+bnP/95xo0bl8suuyy//e1vkyQbN27MmDFjcuqpp+b555/Pv/3bv6W+vj4f//jHO/idAAAARSS8AAAA2u3kk0/OrFmzcvzxx+eGG27IYYcdlj59+uTqq6/O8ccfn5tuuikNDQ1ZsWJFkmTu3Lk59dRTc/vtt2fYsGE59dRTc99992XRokX57//+7w5+NwAAQNF45gUAANBuI0eObP25vLw8vXv3zogRI1qX1dTUJEk2bNiQJPmv//qvLFq0aJfPz1i1alVOOOGE/VwxAADQmQgvAACAduvWrVub38vKytosKysrS5Js3749SfLmm2/mvPPOy9/93d/t1Fa/fv32Y6UAAEBnJLwAAAD2u/e97335zne+k6OPPjpdu/o3BAAA2D3PvAAAAPa7adOm5Y033sgll1yS//iP/8iqVavy1FNP5Yorrkhzc3NHlwcAABSM8AIAANjv+vfvn5/97Gdpbm7OuHHjMmLEiFx77bXp2bNnunTxbwkAANBWWUtLS0tHFwEAAAAAALCDS5wAAAAAAIBCEV4AAAAAAACFIrwAAAAAAAAKRXgBAAAAAAAUivACAAAAAAAoFOEFAAAAAABQKMILAAAAAACgUIQXAAAAAABAoQgvAAAAAACAQhFeAAAAAAAAhSK8AAAAAAAACuX/A6tlRN29/nGiAAAAAElFTkSuQmCC\n"
+          },
+          "metadata": {},
+          "execution_count": 15
+        }
+      ]
+    }
+  ]
+}
